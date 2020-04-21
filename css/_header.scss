@@ -1,0 +1,111 @@
+@include media(tablet-portrait){
+    .header-input{
+        display: none;
+    }
+    .li-border{
+        display: none;
+    }
+}
+@include media(tablet-landscape){
+    .li-border{
+        display: none !important;
+    }
+}
+@include media(phone){
+    .header-content--left{
+        i{
+            display: block !important;
+        }
+    }
+    .header-content--right{
+        display: none !important;
+    }
+
+}
+@mixin li-border(){
+    width: 3.6%;
+    height: 4px;
+    left: 52.7%;
+    background-color: #7596ff;
+}
+.header{
+    background-color:#203345;
+}
+.header-content{
+    justify-content: space-between;
+
+    .header-content--left{
+        margin-top: 11px;
+        i{
+            top: 19%;
+            left: 20em;
+            color: #fff;
+            display: none;
+        }
+    }
+    .header-content--right{
+        li{
+            padding: 1em;
+        }
+        .li-border{
+            @include li-border();
+        
+        }
+        li:hover{
+            .li-border{
+                display: block;
+            }
+        }
+        ul{
+            padding-right: 1em;
+        }
+        input{
+            border: none;
+            padding: 0.7em;
+            padding-left: 1em;
+            padding-right: 2em;
+            border-radius: 6px;
+            background-color: #455662;
+            transition: all 1s ease-in-out;
+            color: #fff;
+        }
+        input::placeholder {
+            color: #acb4b9;
+            font-size: 1.2em;
+        }
+        input:hover{
+            transform: scaleX(1.1);
+        }
+        a{
+            color: 	#acb4b9;
+            font-size: 1.2em;
+            font-weight: bold;
+            transition: all 0.7s ease-in-out;
+        }
+        a:hover{
+            color: #fff;
+        }
+    }
+}
+.header-input{
+    margin-top: 11px;
+    margin-right: 1em;
+    i{
+        left: 89%;
+        top: 10px;
+        color: #bcbaba;
+        font-size: 0.9em;
+    }
+}
+.header-icon{
+    padding: 1em;
+    margin-top: -4px;
+    i{
+        font-size: 1.9em;
+        color: #acb4b9;
+        transition: all 0.7s ease-in-out;
+    }
+    i:hover{
+        color: #fff;
+    }
+}

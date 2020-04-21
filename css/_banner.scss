@@ -1,0 +1,34 @@
+.banner{
+    background-color: #152535;
+    height: 590px;
+}
+.banner-content{
+    justify-content: flex-end;
+}
+.banner-img--left{
+    width: 21%;
+    top: 65px;
+    left: 11%;
+}
+.bn-img1{
+    border-radius: 5px;
+    width: 100%;
+    height: 32em;
+}
+.banner-img--right{
+    width: 70%;
+    p{
+        font-size: 1.1em;
+        color: #acb4b9;
+        width: 61%;
+        line-height: 1.6;
+        letter-spacing: 1px;
+    }
+    .bn-right--text{
+        margin-left: 5%;
+    }
+}
+.bn-img2{
+    width: 100%;
+    height: 30em;
+}
