@@ -83,6 +83,7 @@
 .banner{
     background-color: #152535;
     height: 620px;
+    margin-top: -1px;
 }
 .banner-content{
     justify-content: flex-end;
@@ -110,17 +111,17 @@
     .img2-icon{
         left: 65%;
         top: 2.7em;
-        color: grey;
+        color: #acb4b9;
         font-size: 5em;
         transition: all 0.7s ease-in-out;
     }
     .img2-icon:hover{
-        color: #203345;
+        color: #56626a;
     }
     p{
         font-size: 1.1em;
         color: #acb4b9;
-        width: 61%;
+        width: 70%;
         line-height: 1.6;
         letter-spacing: 1px;
     }

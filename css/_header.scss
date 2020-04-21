@@ -30,6 +30,10 @@
 }
 .header{
     background-color:#203345;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    box-shadow: 1px -1px 15px 5px #ffffff6b;
 }
 .header-content{
     justify-content: space-between;

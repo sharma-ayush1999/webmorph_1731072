@@ -6112,6 +6112,12 @@ readers do not read off random characters that represent icons */
 
 .header {
   background-color: #203345;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  -webkit-box-shadow: 1px -1px 15px 5px #ffffff6b;
+          box-shadow: 1px -1px 15px 5px #ffffff6b;
 }
 
 .header-content {
@@ -6307,6 +6313,7 @@ readers do not read off random characters that represent icons */
 .banner {
   background-color: #152535;
   height: 620px;
+  margin-top: -1px;
 }
 
 .banner-content {
@@ -6344,20 +6351,20 @@ readers do not read off random characters that represent icons */
 .banner-img--right .img2-icon {
   left: 65%;
   top: 2.7em;
-  color: grey;
+  color: #acb4b9;
   font-size: 5em;
   -webkit-transition: all 0.7s ease-in-out;
   transition: all 0.7s ease-in-out;
 }
 
 .banner-img--right .img2-icon:hover {
-  color: #203345;
+  color: #56626a;
 }
 
 .banner-img--right p {
   font-size: 1.1em;
   color: #acb4b9;
-  width: 61%;
+  width: 70%;
   line-height: 1.6;
   letter-spacing: 1px;
 }
@@ -6395,6 +6402,58 @@ readers do not read off random characters that represent icons */
   background-image: linear-gradient(to bottom right, #002f4b, #dc4225);
 }
 
+.gallery {
+  background-color: #152535;
+  margin-top: -2px;
+}
+
+.h2-border {
+  width: 3px;
+  z-index: 100;
+  height: 25px;
+  background-color: white;
+  left: 10%;
+  top: 44em;
+}
+
+.favourites h2 {
+  font-size: 1.6em;
+  letter-spacing: 2px;
+  color: #fff;
+  padding: 1em;
+  padding-left: 6.4em;
+}
+
+.gallery-images {
+  margin: 0px auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.gal-imgs {
+  height: 9em;
+  width: 23%;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 5px grey;
+          box-shadow: inset 0 0 5px grey;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4a555f;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #203345;
+}
+
 * {
   font-family: 'Josefin Sans', sans-serif;
 }
@@ -6408,6 +6467,10 @@ readers do not read off random characters that represent icons */
 ._90 {
   width: 90%;
   margin: 0px auto;
+}
+
+._80 {
+  width: 80%;
 }
 
 .rel {
