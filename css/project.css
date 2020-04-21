@@ -6116,8 +6116,8 @@ readers do not read off random characters that represent icons */
   position: sticky;
   top: 0;
   z-index: 2;
-  -webkit-box-shadow: 1px -1px 15px 5px #ffffff6b;
-          box-shadow: 1px -1px 15px 5px #ffffff6b;
+  -webkit-box-shadow: 4px -1px 34px -5px #737480;
+          box-shadow: 4px -1px 34px -5px #737480;
 }
 
 .header-content {
@@ -6405,15 +6405,7 @@ readers do not read off random characters that represent icons */
 .gallery {
   background-color: #152535;
   margin-top: -2px;
-}
-
-.h2-border {
-  width: 3px;
-  z-index: 100;
-  height: 25px;
-  background-color: white;
-  left: 10%;
-  top: 44em;
+  height: 500px;
 }
 
 .favourites h2 {
@@ -6424,6 +6416,72 @@ readers do not read off random characters that represent icons */
   padding-left: 6.4em;
 }
 
+.favourites .h2-border {
+  width: 3px;
+  z-index: 100;
+  height: 25px;
+  background-color: white;
+  left: 10%;
+  top: 44em;
+}
+
+.favourites .gal-imgs--content {
+  background-color: #203345;
+  top: 57.9em;
+  width: 20.3%;
+  height: 10em;
+  left: 9%;
+  border-radius: 5px;
+}
+
+.favourites .gal-imgs--content p {
+  padding: 0.9em;
+  margin: 0px auto;
+  text-align: left;
+  color: #fff;
+  font-size: 0.9em;
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+
+.favourites .gal-imgs--content .gal-imgs--text {
+  width: 90%;
+  margin: 0px auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 0.5em;
+}
+
+.favourites .gal-imgs--content .gal-imgs--text i {
+  color: #fff;
+  font-size: 1.2em;
+  padding-top: 0.3em;
+}
+
+.favourites .gal-imgs--content .gal-imgs--text .gal-imgs--text1 {
+  width: 47%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.favourites .gal-imgs--content .gal-imgs--text .gal-imgs--text1 i {
+  color: #fff;
+  font-size: 2.3em;
+  padding-top: 0em;
+}
+
+.favourites .gal-imgs--content .gal-imgs--text .gal-imgs--text1 h3 {
+  font-size: 1.2em;
+  letter-spacing: 2px;
+  padding-top: 0.4em;
+}
+
+.favourites .gal-imgs--content .gal-imgs--text .gal-imgs--text1 h3 a {
+  color: #fff;
+}
+
 .gallery-images {
   margin: 0px auto;
   -webkit-box-pack: justify;
@@ -6432,9 +6490,18 @@ readers do not read off random characters that represent icons */
 }
 
 .gal-imgs {
-  height: 9em;
+  height: 10em;
   width: 23%;
   border-radius: 5px;
+  -webkit-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.gal-imgs:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 ::-webkit-scrollbar {
