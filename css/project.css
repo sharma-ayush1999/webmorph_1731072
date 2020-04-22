@@ -6408,6 +6408,9 @@ readers do not read off random characters that represent icons */
 }
 
 @media (max-width: 1025px) {
+  .top-rated .gal-imgs--text1 {
+    width: 80% !important;
+  }
   .gallery-folder h2 {
     padding-left: 4.6em !important;
   }
@@ -6424,11 +6427,17 @@ readers do not read off random characters that represent icons */
   .gallery-folder .even {
     width: 60% !important;
   }
+  .top-rated .odd {
+    width: 72% !important;
+  }
+  .top-rated .duration {
+    width: 23% !important;
+  }
 }
 
 @media (max-width: 800px) {
   .gallery {
-    height: 1800px !important;
+    height: 1900px !important;
   }
   .language .watch-lang .lang-sel {
     width: 24% !important;
@@ -6470,11 +6479,35 @@ readers do not read off random characters that represent icons */
   .language .h2-border {
     top: 97em !important;
   }
+  .top-rated .tr-odd {
+    width: 90% !important;
+  }
+  .top-rated i, .top-rated h3 {
+    font-size: 2em !important;
+  }
+  .top-rated h3 {
+    padding-top: 0em !important;
+  }
+  .top-rated .duration {
+    padding-left: 4em !important;
+    width: 30% !important;
+    padding-top: 0.7em;
+  }
+  .top-rated .ratings i, .top-rated .ratings h3 {
+    font-size: 1em !important;
+  }
+  .top-rated .tr-overlay {
+    top: 126em;
+  }
+  .top-rated .tr-btn {
+    top: 68em;
+    left: 38%;
+  }
 }
 
 @media (max-width: 500px) {
   .gallery {
-    height: 2400px !important;
+    height: 3200px !important;
   }
   .language .watch-lang .lang-sel {
     width: 48% !important;
@@ -6504,6 +6537,36 @@ readers do not read off random characters that represent icons */
   }
   .language .h2-border {
     top: 132.3em !important;
+  }
+  .top-rated .tr-overlay {
+    top: 184.6em;
+    height: 215px !important;
+  }
+  .top-rated .tr-btn {
+    top: 95em !important;
+    left: 3.2em !important;
+  }
+  .top-rated .tr-img {
+    height: 215px !important;
+  }
+  .top-rated i, .top-rated h3 {
+    font-size: 1em !important;
+  }
+  .top-rated .tr-odd {
+    padding: 0em !important;
+  }
+  .top-rated .tr-odd i {
+    padding-right: 0.3em !important;
+  }
+  .top-rated .tr-imgs--text {
+    padding-top: 1em !important;
+  }
+  .top-rated .duration {
+    padding-left: 0.7em !important;
+    width: 63% !important;
+  }
+  .top-rated .duration i, .top-rated .duration h3 {
+    font-size: 0.9em !important;
   }
 }
 
@@ -7054,7 +7117,7 @@ readers do not read off random characters that represent icons */
   height: 370px;
 }
 
-.top-rated .gal-imgs--content {
+.top-rated .tr-imgs--content {
   display: block;
   width: 97.7%;
   margin-left: 1%;
@@ -7062,34 +7125,60 @@ readers do not read off random characters that represent icons */
   height: 100px;
 }
 
-.top-rated .odd {
-  width: 53% !important;
+.top-rated .tr-odd {
+  width: 48%;
 }
 
-.top-rated .gal-imgs--text {
-  width: 98% !important;
+.top-rated .tr-imgs--text {
+  width: 98%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.top-rated .gal-imgs--text i {
-  font-size: 2em !important;
-  padding-top: 0.7em !important;
+.top-rated .tr-imgs--text i {
+  font-size: 2em;
+  padding-top: 0.7em;
+  color: #fff;
 }
 
-.top-rated .gal-imgs--text .gal-imgs--text1 {
-  padding-top: 0.7em !important;
+.top-rated .tr-imgs--text .tr-imgs--text1 {
+  padding-top: 1.2em;
+  padding-left: 1em;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.top-rated .gal-imgs--text .gal-imgs--text1 i {
-  font-size: 3.5em !important;
-  padding-top: 0em !important;
+.top-rated .tr-imgs--text .tr-imgs--text1 i {
+  font-size: 3.5em;
+  padding-top: 0em;
+  color: #fff;
+  -webkit-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
 }
 
-.top-rated .gal-imgs--text .gal-imgs--text1 h3 {
-  font-size: 2em !important;
+.top-rated .tr-imgs--text .tr-imgs--text1 i:hover {
+  color: #ca8810;
+}
+
+.top-rated .tr-imgs--text .tr-imgs--text1 h3 {
+  font-size: 2em;
+  padding-top: 0.2em;
+}
+
+.top-rated .tr-imgs--text .tr-imgs--text1 h3 a {
+  color: #fff;
+  -webkit-transition: all 0.7s ease-in-out;
+  transition: all 0.7s ease-in-out;
+}
+
+.top-rated .tr-imgs--text .tr-imgs--text1 h3 a:hover {
+  color: #ca8810;
 }
 
 .top-rated .gallery-last .duration {
-  width: 16% !important;
+  width: 16%;
   padding-left: 6em;
 }
 
@@ -7126,6 +7215,8 @@ readers do not read off random characters that represent icons */
 
 .gal-tr-img--container:hover .tr-btn, .gal-tr-img--container:hover .tr-overlay {
   display: block;
+  -webkit-animation: fadeIn 2s;
+  animation: fadeIn 2s;
 }
 
 ::-webkit-scrollbar {
