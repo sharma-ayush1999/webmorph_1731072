@@ -6063,6 +6063,11 @@ readers do not read off random characters that represent icons */
   border: 2px solid grey;
 }
 
+.btn-orange {
+  background-color: transparent;
+  border: 2px solid #d8951a;
+}
+
 /*!
  * Font Awesome Free 5.13.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -6423,7 +6428,10 @@ readers do not read off random characters that represent icons */
 
 @media (max-width: 800px) {
   .gallery {
-    height: 1000px !important;
+    height: 1800px !important;
+  }
+  .language .watch-lang .lang-sel {
+    width: 24% !important;
   }
   .gallery-folder .odd {
     width: 64% !important;
@@ -6456,11 +6464,20 @@ readers do not read off random characters that represent icons */
   .gallery-folder .gal-imgs--content4 {
     left: 53%;
   }
+  .binge .h2-border {
+    top: 69em !important;
+  }
+  .language .h2-border {
+    top: 97em !important;
+  }
 }
 
 @media (max-width: 500px) {
   .gallery {
-    height: 1400px !important;
+    height: 2400px !important;
+  }
+  .language .watch-lang .lang-sel {
+    width: 48% !important;
   }
   .gallery-folder .odd {
     width: 45% !important;
@@ -6482,12 +6499,19 @@ readers do not read off random characters that represent icons */
     width: 100% !important;
     left: 4%;
   }
+  .binge .h2-border {
+    top: 81.3em !important;
+  }
+  .language .h2-border {
+    top: 132.3em !important;
+  }
 }
 
 .gallery {
   background-color: #152535;
   margin-top: -2px;
-  height: 800px;
+  height: 1400px;
+  z-index: -1;
 }
 
 .gallery-last {
@@ -6991,13 +7015,117 @@ readers do not read off random characters that represent icons */
   animation: fadeIn 2s;
 }
 
+.binge .gal-img--container h3 {
+  padding-top: 0em !important;
+  padding-left: 0.6em !important;
+}
+
 .binge .gal-imgs--text1 {
   width: 87% !important;
 }
 
 .binge .h2-border {
-  left: 10%;
   top: 59.4em;
+}
+
+.language .h2-border {
+  top: 74.6em;
+}
+
+.language .watch-lang .lang-sel {
+  width: 12%;
+}
+
+.language .watch-lang .gal-imgs {
+  height: 9em;
+}
+
+.top-rated .h2-border {
+  top: 89em;
+}
+
+.top-rated .gal-tr-img--container {
+  width: 80%;
+  margin: 0px auto;
+}
+
+.top-rated .gal-tr-img--container .tr-img {
+  width: 100%;
+  height: 370px;
+}
+
+.top-rated .gal-imgs--content {
+  display: block;
+  width: 97.7%;
+  margin-left: 1%;
+  margin-top: -12px;
+  height: 100px;
+}
+
+.top-rated .odd {
+  width: 53% !important;
+}
+
+.top-rated .gal-imgs--text {
+  width: 98% !important;
+}
+
+.top-rated .gal-imgs--text i {
+  font-size: 2em !important;
+  padding-top: 0.7em !important;
+}
+
+.top-rated .gal-imgs--text .gal-imgs--text1 {
+  padding-top: 0.7em !important;
+}
+
+.top-rated .gal-imgs--text .gal-imgs--text1 i {
+  font-size: 3.5em !important;
+  padding-top: 0em !important;
+}
+
+.top-rated .gal-imgs--text .gal-imgs--text1 h3 {
+  font-size: 2em !important;
+}
+
+.top-rated .gallery-last .duration {
+  width: 16% !important;
+  padding-left: 6em;
+}
+
+.top-rated .gallery-last .duration h4 {
+  font-size: 0.9em;
+}
+
+.top-rated .gallery-last .duration .ratings i, .top-rated .gallery-last .duration .ratings h3 {
+  font-size: 0.9em;
+}
+
+.tr-overlay {
+  width: 80%;
+  top: 92em;
+  height: 374px;
+  background-color: #000000a8;
+  border-radius: 5px;
+  display: none;
+}
+
+.tr-btn {
+  font-size: 2em;
+  top: 51em;
+  left: 45%;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  display: none;
+}
+
+.tr-btn:hover {
+  color: #d8951a;
+  border: 2px solid #fff;
+}
+
+.gal-tr-img--container:hover .tr-btn, .gal-tr-img--container:hover .tr-overlay {
+  display: block;
 }
 
 ::-webkit-scrollbar {
