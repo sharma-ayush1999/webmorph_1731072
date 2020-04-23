@@ -6564,8 +6564,8 @@ readers do not read off random characters that represent icons */
     margin-bottom: 20px !important;
   }
   .gallery-folder .gal-imgs--content {
-    width: 100% !important;
-    left: 5%;
+    width: 96% !important;
+    left: 7.2%;
   }
   .binge .h2-border {
     top: 81.3em !important;
