@@ -6068,6 +6068,10 @@ readers do not read off random characters that represent icons */
   border: 2px solid #d8951a;
 }
 
+.btn-green {
+  background-color: #47f856;
+}
+
 /*!
  * Font Awesome Free 5.13.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -7418,17 +7422,24 @@ readers do not read off random characters that represent icons */
   .footer-last {
     width: 30% !important;
   }
+  .footer-btn {
+    width: 30% !important;
+  }
 }
 
 @media (max-width: 800px) {
   .footer-content {
     width: 80% !important;
   }
+  .footer-btn {
+    width: 22% !important;
+  }
 }
 
 @media (max-width: 500px) {
   .footer-content {
     width: 100% !important;
+    padding: 0em !important;
     padding-top: 1em !important;
   }
   .footer-text1 {
@@ -7453,6 +7464,12 @@ readers do not read off random characters that represent icons */
   }
   .footer-img .footer-logo {
     width: 88% !important;
+  }
+  .footer-btn {
+    width: 35% !important;
+  }
+  .footer-btn button {
+    padding: 0.4em !important;
   }
 }
 
@@ -7549,6 +7566,23 @@ readers do not read off random characters that represent icons */
   color: #acb4b9;
 }
 
+.footer .footer-content .footer-btn {
+  padding-top: 0.6em;
+  width: 17%;
+  margin: 0px auto;
+}
+
+.footer .footer-content .footer-btn button {
+  padding: 0.7em;
+  font-size: 1.2em;
+  -webkit-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+}
+
+.footer .footer-content .footer-btn button:hover {
+  background-color: #2bfa36;
+}
+
 ::-webkit-scrollbar {
   width: 15px;
 }
@@ -7600,5 +7634,12 @@ readers do not read off random characters that represent icons */
 a, li {
   list-style: none;
   text-decoration: none;
+}
+
+.next-page {
+  z-index: 100;
+  left: 95%;
+  top: 21em;
+  font-size: 2em;
 }
 /*# sourceMappingURL=project.css.map */
