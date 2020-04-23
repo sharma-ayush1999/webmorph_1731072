@@ -4,8 +4,10 @@
 }
 
 .banner2 .banner2-left {
-  padding: 3em;
-  padding-bottom: 1em;
+  padding-left: 5em;
+  padding-top: 4em;
+  padding-bottom: 0em;
+  width: 35%;
 }
 
 .banner2 .banner2-left .ban2-h2 h1 {
@@ -25,7 +27,7 @@
   padding-left: 0.4em;
   font-size: 1em;
   border-right: 2px solid grey;
-  height: 13.9px;
+  height: 15px;
 }
 
 .banner2 .banner2-left .ban2-ratings .ban2-review {
@@ -40,6 +42,87 @@
 .banner2 .banner2-left .ban2-ratings .ban2-review i {
   color: #b1832e;
   padding-right: 0.4em;
+}
+
+.banner2 .banner2-left .ban2-para {
+  padding-left: 0.4em;
+  padding-top: 1em;
+}
+
+.banner2 .banner2-left .ban2-para p {
+  color: #acb4b9;
+  letter-spacing: 2px;
+}
+
+.banner2 .banner2-left .ban2-btn {
+  padding-top: 1.3em;
+  padding-left: 0.3em;
+}
+
+.banner2 .banner2-left .ban2-btn .ban2-content {
+  width: 90%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.banner2 .banner2-left .ban2-btn .btn-blue {
+  width: 38%;
+  padding: 0.4em;
+}
+
+.banner2 .banner2-left .ban2-btn .btn-blue i {
+  font-size: 1.1em;
+  padding-right: 0.2em;
+}
+
+.banner2 .banner2-left .ban2-btn .btn-transparent {
+  width: 56%;
+  padding: 0.4em;
+}
+
+.banner2 .banner2-left .ban2-btn .btn-transparent i {
+  font-size: 1.1em;
+  padding-right: 0.2em;
+}
+
+.banner2 .banner2-left .ban2-details {
+  width: 100%;
+}
+
+.banner2 .banner2-left .ban2-details {
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 2em;
+  padding-left: 0.3em;
+}
+
+.banner2 .banner2-left .ban2-details h3 {
+  color: #acb4b9;
+  padding-bottom: 0.3em;
+  font-size: 1.1em;
+}
+
+.banner2 .banner2-left .ban2-details h3 a {
+  color: #2727aee0;
+  font-size: 1em;
+}
+
+.banner2 .banner2-left .ban2-details .bd-info--right h3 {
+  color: #fff;
+  font-weight: 100;
+}
+
+.banner2 .banner2-right {
+  width: 59%;
+  padding-left: 6.3em;
+}
+
+.banner2 .banner2-right .ban-img2 {
+  width: 100%;
+  height: 480px;
 }
 
 .gallery {
