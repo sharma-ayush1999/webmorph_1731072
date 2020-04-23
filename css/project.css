@@ -7367,7 +7367,7 @@ readers do not read off random characters that represent icons */
 
 .genre .gen-img--container .gen-content {
   background-color: #203345;
-  width: 94%;
+  width: 92%;
   border-radius: 5px;
   margin: 0px auto;
   height: 45px;
@@ -7634,12 +7634,5 @@ readers do not read off random characters that represent icons */
 a, li {
   list-style: none;
   text-decoration: none;
-}
-
-.next-page {
-  z-index: 100;
-  left: 95%;
-  top: 21em;
-  font-size: 2em;
 }
 /*# sourceMappingURL=project.css.map */

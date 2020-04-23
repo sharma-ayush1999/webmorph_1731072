@@ -1,0 +1,48 @@
+.banner2 {
+  height: 500px;
+  background-color: #152535;
+}
+
+.banner2 .banner2-left {
+  padding: 3em;
+  padding-bottom: 1em;
+}
+
+.banner2 .banner2-left .ban2-h2 h1 {
+  font-size: 3em;
+  color: #fff;
+  font-weight: 700;
+}
+
+.banner2 .banner2-left .ban2-ratings {
+  padding-top: 1em;
+}
+
+.banner2 .banner2-left .ban2-ratings h6 {
+  color: #acb4b9;
+  padding: 0em;
+  padding-right: 0.4em;
+  padding-left: 0.4em;
+  font-size: 1em;
+  border-right: 2px solid grey;
+  height: 13.9px;
+}
+
+.banner2 .banner2-left .ban2-ratings .ban2-review {
+  padding-left: 0.4em;
+}
+
+.banner2 .banner2-left .ban2-ratings .ban2-review h5, .banner2 .banner2-left .ban2-ratings .ban2-review i {
+  color: #acb4b9;
+  font-size: 1em;
+}
+
+.banner2 .banner2-left .ban2-ratings .ban2-review i {
+  color: #b1832e;
+  padding-right: 0.4em;
+}
+
+.gallery {
+  height: 400px;
+}
+/*# sourceMappingURL=page2.css.map */

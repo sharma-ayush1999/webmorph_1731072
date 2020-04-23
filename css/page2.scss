@@ -1,0 +1,41 @@
+.banner2{
+    height: 500px;
+    background-color: #152535;
+    .banner2-left{
+        padding: 3em;
+        padding-bottom: 1em;
+        .ban2-h2{
+        h1{
+            font-size: 3em;
+            color: #fff;
+            font-weight: 700;
+        }
+    }
+    .ban2-ratings{
+        padding-top: 1em;
+        h6{
+            color: #acb4b9;
+            padding: 0em;
+            padding-right: 0.4em;
+            padding-left: 0.4em;
+            font-size: 1em;
+            border-right: 2px solid grey;
+            height: 13.9px;
+        }
+        .ban2-review{
+            padding-left: 0.4em;
+            h5,i{
+                color: #acb4b9;
+                font-size: 1em;
+            }
+            i{
+                color: rgb(177, 131, 46);
+                padding-right: 0.4em;
+            }
+        }
+}
+    }
+}
+.gallery{
+    height: 400px;
+}
