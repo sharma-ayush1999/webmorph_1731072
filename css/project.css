@@ -6541,6 +6541,9 @@ readers do not read off random characters that represent icons */
   .gallery {
     height: 3900px !important;
   }
+  .gallery .duration {
+    width: 37% !important;
+  }
   .language .watch-lang .lang-sel {
     width: 48% !important;
   }
@@ -7577,6 +7580,10 @@ readers do not read off random characters that represent icons */
   font-size: 1.2em;
   -webkit-transition: all 0.6s ease-in-out;
   transition: all 0.6s ease-in-out;
+}
+
+.footer .footer-content .footer-btn button a {
+  color: #fff;
 }
 
 .footer .footer-content .footer-btn button:hover {

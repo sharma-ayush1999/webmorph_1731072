@@ -148,6 +148,9 @@
  @include  media(phone){
     .gallery{
         height: 3900px !important;
+        .duration{
+            width: 37% !important;
+        }
     }
     .language{
         .watch-lang{
