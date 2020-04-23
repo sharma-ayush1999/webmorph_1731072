@@ -7191,6 +7191,8 @@ readers do not read off random characters that represent icons */
   margin-left: 1%;
   margin-top: -12px;
   height: 100px;
+  -webkit-box-shadow: 1px 3px 10px -4px;
+          box-shadow: 1px 3px 10px -4px;
 }
 
 .top-rated .tr-odd {
@@ -7329,8 +7331,14 @@ readers do not read off random characters that represent icons */
   left: 77%;
 }
 
+.genre .gen-img--container .gen-content {
+  -webkit-box-shadow: 5px 12px 14px -14px;
+          box-shadow: 5px 12px 14px -14px;
+}
+
 .genre .gen-img--container .gen-content .gen-text {
   padding: 1em;
+  padding-bottom: 0em;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -7400,6 +7408,147 @@ readers do not read off random characters that represent icons */
   color: #fff;
 }
 
+@media (max-width: 1025px) {
+  .footer {
+    margin-top: -2px;
+  }
+  .footer-text2 {
+    width: 90% !important;
+  }
+  .footer-last {
+    width: 30% !important;
+  }
+}
+
+@media (max-width: 800px) {
+  .footer-content {
+    width: 80% !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer-content {
+    width: 100% !important;
+    padding-top: 1em !important;
+  }
+  .footer-text1 {
+    margin-top: 10px !important;
+  }
+  .footer-area {
+    width: 43% !important;
+    margin: 0px auto;
+    -ms-flex-wrap: wrap !important;
+        flex-wrap: wrap !important;
+  }
+  .footer-area h4 {
+    width: 100% !important;
+    padding: 0em !important;
+    padding-bottom: 0.6em !important;
+  }
+  .footer-icons {
+    width: 46% !important;
+  }
+  .footer-img {
+    width: 30% !important;
+  }
+  .footer-img .footer-logo {
+    width: 88% !important;
+  }
+}
+
+.footer {
+  background-color: #203345;
+}
+
+.footer .footer-content {
+  margin: 0px auto;
+  padding: 1em;
+}
+
+.footer .footer-content .footer-icons {
+  width: 22%;
+  margin: 0px auto;
+}
+
+.footer .footer-content .footer-icons i {
+  padding: 0.3em;
+  font-size: 1.8em;
+  color: #acb4b9;
+  -webkit-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+}
+
+.footer .footer-content .footer-icons i:hover {
+  color: #f1f1f1;
+}
+
+.footer .footer-content .footer-text1 {
+  width: 90%;
+  margin: 0px auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .footer-content .footer-text1 h4 {
+  padding: 1em;
+}
+
+.footer .footer-content .footer-text1 h4 a {
+  color: #acb4b9;
+  letter-spacing: 2px;
+  -webkit-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+}
+
+.footer .footer-content .footer-text1 h4 a:hover {
+  color: white;
+}
+
+.footer .footer-content .footer-text2 {
+  width: 70%;
+  margin: 0px auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .footer-content .footer-text2 h4 {
+  padding: 0.6em;
+}
+
+.footer .footer-content .footer-text2 h4 a {
+  color: #acb4b9;
+  letter-spacing: 2px;
+  -webkit-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+}
+
+.footer .footer-content .footer-text2 h4 a:hover {
+  color: white;
+}
+
+.footer .footer-content .footer-img {
+  width: 13%;
+  margin: 0px auto;
+  padding: 1em;
+  padding-bottom: 0em;
+}
+
+.footer .footer-content .footer-img .footer-logo {
+  width: 108%;
+}
+
+.footer .footer-content .footer-last {
+  width: 20%;
+  margin: 0px auto;
+  padding: 0em;
+}
+
+.footer .footer-content .footer-last h6 {
+  color: #acb4b9;
+}
+
 ::-webkit-scrollbar {
   width: 15px;
 }
@@ -7434,6 +7583,10 @@ readers do not read off random characters that represent icons */
 
 ._80 {
   width: 80%;
+}
+
+._50 {
+  width: 50%;
 }
 
 .rel {

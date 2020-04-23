@@ -9,6 +9,7 @@
 @import "header";
 @import "banner";
 @import "gallery";
+@import "footer";
 @import "scrollbar";
 
 *{
@@ -23,6 +24,9 @@
 }
 ._80{
     width: 80%;
+}
+._50{
+    width: 50%;
 }
 .rel{
     position: relative;

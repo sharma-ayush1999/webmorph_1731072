@@ -1,0 +1,115 @@
+@include media(tablet-landscape){
+    .footer{
+        margin-top: -2px;
+    }
+    .footer-text2{
+        width: 90% !important;
+    }
+    .footer-last{
+        width: 30% !important;
+    }
+}
+@include media(tablet-portrait){
+    .footer-content{
+        width: 80% !important;
+    }
+}
+@include media(phone){
+    .footer-content{
+        width: 100% !important;
+        padding-top: 1em !important;
+    }
+    .footer-text1{
+        margin-top: 10px !important;
+    }
+    .footer-area{
+        width: 43% !important;
+        margin: 0px auto;
+        flex-wrap: wrap !important;
+        h4{
+            width: 100% !important;
+            padding: 0em !important;
+            padding-bottom: 0.6em !important;
+        }
+    }
+    .footer-icons{
+        width: 46% !important;
+    }
+    .footer-img{
+        width: 30% !important;
+        .footer-logo{
+            width: 88% !important;
+        }
+    }
+}
+.footer{
+    background-color: #203345;
+    .footer-content{
+        margin: 0px auto;
+        padding: 1em;
+    .footer-icons{
+        width: 22%;
+        margin: 0px auto;
+        i{
+            padding: 0.3em;
+            font-size: 1.8em;
+            color: #acb4b9;
+            transition: all 0.6s ease-in-out;
+        }
+        i:hover{
+            color: #f1f1f1;
+        }
+    }
+    .footer-text1{
+        width: 90%;
+        margin: 0px auto;
+        justify-content: space-between;
+        h4{
+            padding: 1em;
+            a{
+                color:  #acb4b9;
+                letter-spacing: 2px;
+                transition: all 0.6s ease-in-out;
+            }
+            a:hover{
+                color: rgb(255, 255, 255);
+            }
+        }
+    }
+    .footer-text2{
+        width: 70%;
+        margin: 0px auto;
+        justify-content: space-between;
+        h4{
+            padding: 0.6em;
+            a{
+                color:  #acb4b9;
+                letter-spacing: 2px;
+                transition: all 0.6s ease-in-out;
+            }
+            a:hover{
+                color: rgb(255, 255, 255);
+            }
+    
+}
+    }
+    .footer-img{
+        width: 13%;
+        margin: 0px auto;
+        padding: 1em;
+        padding-bottom: 0em;
+    
+    .footer-logo{
+        width: 108%;
+    }
+}
+    .footer-last{
+        width: 20%;
+        margin: 0px auto;
+        padding: 0em;
+        h6{
+            color: #acb4b9;
+        }
+    }
+    }
+}

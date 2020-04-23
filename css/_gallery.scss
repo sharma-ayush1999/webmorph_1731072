@@ -487,6 +487,7 @@
         margin-left: 1%;
         margin-top: -12px;
         height: 100px;
+        box-shadow: 1px 3px 10px -4px;
     }
     .tr-odd{
         width: 48%;
@@ -602,8 +603,10 @@
         }
         width: 24%;
         .gen-content{
+            box-shadow: 5px 12px 14px -14px;
             .gen-text{
                 padding: 1em;
+                padding-bottom:0em ;
                 justify-content: space-between;
                 h3{
                     a{
