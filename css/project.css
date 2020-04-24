@@ -6348,15 +6348,6 @@ readers do not read off random characters that represent icons */
   width: 70%;
 }
 
-.banner-img--right .bn-img--overlay {
-  width: 70%;
-  height: 20em;
-  top: 0%;
-  height: 30em;
-  background-image: -webkit-gradient(linear, left top, right top, from(#152535), to(#fffdfd00));
-  background-image: linear-gradient(to right, #152535, #fffdfd00);
-}
-
 .banner-img--right .img2-icon {
   left: 63%;
   top: 2em;
@@ -6407,8 +6398,7 @@ readers do not read off random characters that represent icons */
 .bn-img2 {
   width: 100%;
   height: 30em;
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#002f4b), to(#dc4225));
-  background-image: linear-gradient(to bottom right, #002f4b, #dc4225);
+  opacity: 0.5;
 }
 
 @media (max-width: 1025px) {
