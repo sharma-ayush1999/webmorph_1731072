@@ -6563,6 +6563,9 @@ readers do not read off random characters that represent icons */
   .language .h2-border {
     top: 132.3em !important;
   }
+  .top-rated .h2-border {
+    top: 181.2em !important;
+  }
   .top-rated .tr-overlay {
     top: 184.6em;
     height: 215px !important;
@@ -6594,7 +6597,7 @@ readers do not read off random characters that represent icons */
     font-size: 0.9em !important;
   }
   .genre .h2-border {
-    top: 181.3em !important;
+    top: 205.5em !important;
   }
   .genre .gen-img--container {
     width: 100% !important;
